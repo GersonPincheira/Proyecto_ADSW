@@ -1,22 +1,19 @@
 {
-  "name": "proyecto_adsw",
-  "version": "0.0.1",
-  "description": "proyecto para analisis y diseño de software",
-  "main": "app.js",
+  "name": "proyecto-adsw",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GersonPincheira/Proyecto_ADSW.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GersonPincheira/Proyecto_ADSW/issues"
-  },
-  "homepage": "https://github.com/GersonPincheira/Proyecto_ADSW#readme",
   "dependencies": {
-    "express": "^4.15.4"
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "mysql": "^2.14.1",
+    "sequelize": "^4.10.2",
+    "serve-favicon": "~2.4.2"
   }
 }
